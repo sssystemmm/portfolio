@@ -41,6 +41,17 @@ const Contact: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                   </a>
+                  <a 
+                    href="https://drive.google.com/file/d/1DhePtDhoRh-VRlDJXptXTfLAHoh7m5ZJ/view?usp=sharing" 
+                    target="_blank" 
+                    rel="noreferrer"
+                    className="text-xl md:text-2xl font-semibold text-white hover:text-brand-blue transition-all flex items-center gap-3 group"
+                  >
+                    Resume
+                    <svg className="w-5 h-5 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </a>
                 </div>
               </div>
             </div>

@@ -33,7 +33,7 @@ const Home: React.FC<HomeProps> = ({ onSeeMore }) => {
 
           {/* Consistent subheader text */}
           <p className="text-xl md:text-2xl lg:text-[26px] text-gray-400 leading-relaxed font-light w-full tracking-tight">
-            Research deep. Think in systems. Align the teams. Ship what matters.
+            Learn fast. Think in systems. Align the teams. Ship what matters.
           </p>
         </div>
       </section>

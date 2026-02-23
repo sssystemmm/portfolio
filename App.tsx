@@ -96,7 +96,7 @@ const App: React.FC = () => {
 
           {/* Bottom bar stays the same */}
           <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/5 text-[9px] font-bold text-gray-700 uppercase tracking-widest">
-            <span>© 2024 UX Lead Portfolio</span>
+            <span>© 2024 Product Design Lead Portfolio</span>
             <span className="my-4 md:my-0">Built with impact in mind</span>
             <span>Portfolio Edition</span>
           </div>

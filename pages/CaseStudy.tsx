@@ -286,7 +286,7 @@ const CaseStudy: React.FC<CaseStudyProps> = ({ item, onBack, onNext }) => {
           {/* Design Process */}
           <section id="process" className="scroll-mt-32">
             <h2 className="text-3xl font-bold mb-4">Design Process</h2>
-            <p className="text-lg text-gray-500 mb-16">Following a comprehensive human-centered methodology spanning nine months.</p>
+            <p className="text-lg text-gray-500 mb-16">Following a data-driven, context-aware, human-centered methodology.</p>
             
             <div className="space-y-32 relative">
               {/* Connector line */}

@@ -38,7 +38,10 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage }) => {
             </button>
           </div>
           <div className="h-4 w-[1px] bg-white/10 hidden md:block"></div>
-          <button className="hidden md:block bg-brand-blue text-white px-5 py-2 rounded-lg text-xs font-bold hover:brightness-110 transition-all">
+          <button
+            className="hidden md:block bg-brand-blue text-white px-5 py-2 rounded-lg text-xs font-bold hover:brightness-110 transition-all"
+            onClick={() => window.open('https://drive.google.com/file/d/1DhePtDhoRh-VRlDJXptXTfLAHoh7m5ZJ/view?usp=sharing', '_blank')}
+          >
             Resume
           </button>
         </div>

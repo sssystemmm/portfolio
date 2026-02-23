@@ -16,14 +16,13 @@ export const IMPACTS: ImpactItem[] = [
     imageUrl: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771585183/Thumbnail_-_pathways_pbkl9b.png',
     caseStudy: {
       overview: 'Led the complete end-to-end redesign of Alef Pathways, transforming it from a teacher-centric assessment tool into a student-empowered learning platform that addresses critical educational gaps in the UAE market where 80% of students perform below grade level.',
-      overviewSubtext: 'This project demonstrated the business value of investing in comprehensive UX transformation rather than incremental improvements, unlocking significant user growth and culminating in winning "Best Digital Educational Resource/Product" at the GESS Education Awards 2025.',
-      links: [
+      overviewSubtext: 'AI-led transformation combining custom adaptive algorithms, intelligent tutoring, and pedagogical storytelling. Result: 41% user growth, 42 new contracts, and GESS Education Awards 2025 winner for "Best Digital Educational Resource/Product".',      links: [
         { label: 'GESS Education Awards 2025 Winners', url: 'https://www.gessdubai.com/2025-awards-winners/' },
         { label: 'Alef Pathways Product Overview', url: 'https://www.alefeducation.com/products/alef-pathways#overview' }
       ],
       metadata: { 
         role: 'Lead Product Designer', 
-        timeline: '9 Months (2024-2025)', 
+        timeline: '12 Months (2024-2025)', 
         team: 'Product Managers and Head, Brand Designer, Motion Designer, 2 UI Designers, UX Researcher, Growth' 
       },
       metrics: [
@@ -118,8 +117,8 @@ export const IMPACTS: ImpactItem[] = [
     processBrief: '2-year 7-months engagement developing UX patterns and mental models for self-sovereign identity (SSI) and POC + MVP with a corporate partner in Belgium.',
     imageUrl: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771578410/a37ffe28-a270-4e3c-8449-40c1a6ce37f3.png',
     caseStudy: {
-      overview: 'Co-designed the UX vision and identity design framework for Twinds Foundation, the preliminary work that contributed directly to securing a European Union Horizon Europe R&D grant to apply our self-sovereign identity and data privacy framework, whose goal is to rebuild trust in digital services by providing greater transparency, decentralized control and balancing privacy and data use.',
-      overviewSubtext: 'As UX/UI Designer, I contributed to building the bridge between cutting-edge cryptographic technology and human-centered design across a three-year engagement, resulting in a formal research output, POC and MVP with a big corporate partner in Belgium to manage GDPR compliance with HR use cases.',
+      overview: 'Co-designed the UX vision and self-sovereign identity design framework for Twinds Foundation, work that contributed directly to securing a European Union Horizon Europe R&D grant. Our privacy-first system gives users decentralized control over their data to rebuild trust in digital services.',
+      overviewSubtext: 'As UX/UI Designer, I contributed to building the bridge between cutting-edge cryptographic technology and human-centered design across 2 years and 7 months engagement, resulting in a formal research output, POC and MVP with a big corporate partner in Belgium to manage GDPR compliance with HR use cases.',
       links: [
         { label: 'Twinds Foundation Website', url: 'https://twinds.org' },
         { label: 'EU Grant Details', url: 'https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/org-details/999999999/project/101086523/program/43108390/details' }
@@ -171,7 +170,7 @@ export const IMPACTS: ImpactItem[] = [
     title: 'Validating gamification system with a large scale live experiment',
     subtitle: 'Designed and implemented a gamification system using pathway-specific badges that significantly boosted student engagement and learning outcomes across the platform.',
     impactValue: '+15%',
-    impactLabel: 'Sustagement',
+    impactLabel: 'Sustained Engagement',
     impactMetric: '+15% Sustained Engagement Increase',
     description: 'A data-driven gamification layer that rewards skill mastery and consistent practice.',
     processBrief: '28-day controlled experiment with 152,615 students. Focused on measuring not just engagement quantity but also learning quality and proficiency upgrades.',
@@ -189,16 +188,16 @@ export const IMPACTS: ImpactItem[] = [
       ],
       challenge: {
         description: 'How do we motivate students to maintain consistent practice without sacrificing learning quality?',
-        image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771603681/pathways_challenge_t93ggb.png',
+        image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771827492/Screenshot_2026-02-23_at_10.17.44_AM_ajcevo.png',
         points: [
-          { title: 'Inconsistent Practice', description: 'Students often dropped off after initial onboarding.', iconType: 'warning' },
-          { title: 'Engagement vs Quality', description: 'Gamification can sometimes lead to rushing.', iconType: 'info' }
+          { title: 'Inconsistent Practice', description: 'Students are overwhelmed with the amount of work at school and often dropped off after initial onboarding due to inability to see value of supplemental workload and plan and manage their time efficiently.', iconType: 'warning' },
+          { title: 'Engagement vs Quality', description: 'Gamification can sometimes lead to rushing and lack of engaged learning time.', iconType: 'warning' }
         ]
       },
       processSteps: [
-        { id: '01', title: 'Gamification Strategy', description: 'Identified that students lacked progress indicators and clear goals to fulfill according to their progress measures: active days, questions answered, learning time, and levels upgraded. I partnered with the Lead Brand Designer to illustrate the fours main Pathways Challenges, showcased in a tiered approach.', image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771602361/cc98339a-f3e0-49fd-88ad-913aafddfa5d.png' },
-        { id: '02', title: 'Experimental Design', description: 'Integrated the bagde system with the current one housed in the student profile and partnered with Tech to define a 28-day A/B test to measure the efficacy of activating the unique Pathways Challenge Badges.', image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771602596/Screenshot_2026-02-20_at_7.49.37_PM_bf5iud.png' },
-        { id: '03', title: 'Visual Language', description: 'Developed a system of badges that felt earned and integrated into the existing Course Design.', image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771602435/2696f5d7-d1f4-4860-83e8-b1a888e276b2.png' }
+        { id: '01', title: 'Gamification Strategy', description: 'Identified that students lacked progress indicators and clear goals to fulfill according to their progress measures: active days, questions answered, learning time, and levels upgraded. Mapped such goals to clear product KPIs. Integrated the badge system with the current one housed in the student profile and partnered with Tech to define an A/B test to measure the efficacy of activating the unique Pathways Challenge Badges.', image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771602596/Screenshot_2026-02-20_at_7.49.37_PM_bf5iud.png' },
+        { id: '02', title: 'Brand Consistency', description: 'Rather than relying on generic badge illustrations, I partnered with the Lead Brand Designer to create characters that were already familiar to students from across the Alef product line. Each of the four Pathways Challenges got its own distinct mascot, presented in a tiered podium progression. A structure instantly legible to UAE students who grew up with ranking and competition as core motivational frameworks. The result felt native to the product rather than bolted on, and gave students clear visual context for what each badge represented and what it would take to earn it.', image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771602361/cc98339a-f3e0-49fd-88ad-913aafddfa5d.png' },
+        { id: '03', title: 'Challenge Integration', description: 'Badges were not only bolted on as a separate reward layer. They were integrated directly into the product flow as "Pathways Challenges," anchored to the main Courses page where learning actually happens. This kept motivation contextual and purposeful: students experience the familiar pull of games they already love, but the design directs that energy toward practice and mastery rather than profile-hunting. Focusing on progress that feels earned because it lives where the work does.', image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771602435/2696f5d7-d1f4-4860-83e8-b1a888e276b2.png' }
       ],
       solution: {
         mainImage: '', 
@@ -254,15 +253,15 @@ export const IMPACTS: ImpactItem[] = [
         description: 'Static messaging was becoming background noise. Users were ignoring critical path notifications.',
         image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771606181/Screenshot_2026-02-20_at_8.49.30_PM_rz0jga.png',
         points: [
-          { title: 'Introduce Experiments as Internal Best Practices', description: 'After a few failed attempts we managed to introduce experiments as internal best practices for behavioral design.', iconType: 'warning' },
-          { title: 'Banner Blindness', description: 'Generic calls-to-action were underperforming.', iconType: 'warning' },
-          { title: 'Flow Integration', description: 'Lack of emotional integration in the flow. Students did not receive a positive and surprising response from the system before, during or after learning effort.', iconType: 'warning' }
+          { title: 'No Experiment Culture', description: 'Previous attempts to introduce behavioral design experiments had stalled internally. There was no framework for measuring whether communication design was working at all, making it impossible to improve what couldn`t be measured.', iconType: 'warning' },
+          { title: 'Banner Blindness', description: 'Generic calls-to-action were underperforming. The same message reached every student regardless of their progress state, turning potentially motivating nudges into ignored noise.', iconType: 'warning' },
+          { title: 'Flow Integration', description: 'Students did not receive emotionally resonant responses from the system before, during, or after learning effort. The communication layer was disconnected from the actual experience of learning.', iconType: 'warning' }
         ]
       },
       processSteps: [
-        { id: '01', title: 'Data Mapping', description: 'Mapping student states to specific nudges and messaging triggers.', image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771605466/9635bb37-660d-46c0-a4dd-abba91c2439b.png' },
-        { id: '02', title: 'Selected Launch Nudging Moment', description: 'Created a strategic communication sheet, mapping the most impactful nudging moments that were adapted to the overall learning journey and drop offs.', image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771605421/554deaf2-43ce-4bbd-864c-6bc21b0f1857.png' },
-        { id: '03', title: 'Design System Integration', description: 'Creating a flexible banner component that scales across device types.', image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771605439/edbef081-36ef-4550-90c5-03ee9b1b7c53.png' }
+        { id: '01', title: 'Nudging Moment', description: 'Created a strategic communication sheet, mapping the most impactful nudging moments that were adapted to the overall learning journey and drop offs.', image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771605466/9635bb37-660d-46c0-a4dd-abba91c2439b.png' },
+        { id: '02', title: 'Data x KPIs Mapping', description: 'Mapping student states to specific nudges and messaging triggers and clear product KPIs.', image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771605421/554deaf2-43ce-4bbd-864c-6bc21b0f1857.png' },
+        { id: '03', title: 'Design System Integration', description: 'Creating a flexible banner component and in-flow reward and bonus moments so that the visual keys of the banner are strictly connected to the progress and how the student perceive their efforst while practicing.', image: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771605439/edbef081-36ef-4550-90c5-03ee9b1b7c53.png' }
       ],
       solution: {
         mainImage: '', featureTitle: 'Adaptive Messaging', featureDescription: 'Context-aware prompts based on behavior.',
