@@ -60,15 +60,17 @@ export const IMPACTS: ImpactItem[] = [
         featureTitle: 'From Testing to Empowering', 
         featureDescription: 'Fundamentally shifted product philosophy by restructuring assessment architecture to provide immediate, actionable feedback at moments of success and struggle rather than delayed grades.\n\nFor teachers a one click away design principle enabled clear scaffolded data analytics dashboard, where they could clearly and independently focus on what they need to: areas of concern and successes.\n\nThe platform enabled teachers to have time saving targeted private chats with students to solve issues timely, further advancing the goal of the prduct to reduce grade gaps in education.',
         featureImages: [
-          'https://res.cloudinary.com/dz26vptwn/image/upload/v1771583819/Pathways_Home_pmizdp.png',
-          'https://res.cloudinary.com/dz26vptwn/image/upload/v1771583818/For_You_fqtwkf.png',
-          'https://res.cloudinary.com/dz26vptwn/image/upload/v1771583819/Property_1_Adaptive_Practice_-_mastered_4_xxncgs.png'
+          'https://res.cloudinary.com/dz26vptwn/image/upload/v1772038148/2f8ab8c8-bbfd-4977-862d-c146b8fae3f5.png',
+          'https://res.cloudinary.com/dz26vptwn/image/upload/v1772038516/a53b8d2d-f93a-4279-90b0-ea08672727f9.png',
+          'https://res.cloudinary.com/dz26vptwn/image/upload/v1772038045/6e45399a-a4d9-46c7-824c-956ce7c9d50d.png',
+          'https://res.cloudinary.com/dz26vptwn/image/upload/v1772039101/218214c2-d6bd-4746-b32b-999fd2d60625.png'
         ],
         additionalSections: [
           {
             title: 'Progress & Mastery Visualization',
             description: 'Comprehensive dashboards for students to track their learning journey, including progress reports and leaderboard engagement.',
             images: [
+              'https://res.cloudinary.com/dz26vptwn/image/upload/v1772040248/e0668650-e990-4777-8bd5-04e44bd4bbc9.png',
               'https://res.cloudinary.com/dz26vptwn/image/upload/v1771583555/Progress_Page_y7exsg.png',
               'https://res.cloudinary.com/dz26vptwn/image/upload/v1771583554/Leaderboard_feuxo6.png',
               'https://res.cloudinary.com/dz26vptwn/image/upload/v1771583634/Level_Report_nsipqe.png'
