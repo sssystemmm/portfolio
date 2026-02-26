@@ -113,7 +113,7 @@ export const IMPACTS: ImpactItem[] = [
     product: 'EU GRANT WINNER | IDENTITY | TRUST SYSTEMS',
     category: 'Identity / Decentralization',
     title: 'Twinds Foundation: Designing for Decentralized Trust',
-    subtitle: 'Co-designed the UX vision and self-sovereign identity design framework for Twinds Foundation, contributing directly to securing a EU Horizon Europe grant.',
+    subtitle: 'Established the self-sovereign identity UX vision and disposable identity use cases that contributed directly to Twinds Foundation securing Horizon Europe funding.',
     impactValue: 'EU GRANT',
     impactLabel: 'Horizon Europe Secured',
     impactMetric: 'Our framework secured Horizon Europe R&D Grant',
