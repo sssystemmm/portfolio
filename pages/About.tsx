@@ -26,7 +26,7 @@ const About: React.FC = () => {
             Research deep. Decide right.
           </h3>
           <p className="text-base text-gray-400 leading-relaxed">
-            Great design starts before the first screen. I ground every project in layered research drawing from academic literature, technology trends, and real user data. All tailored to the specific context we're building for. This creates a strategic framework that doesn't just inform the first concept but guides every iteration, enabling confident pivots rooted in real insights rather than assumptions.
+            Great design starts before the first screen. I ground every project in layered research drawing from academic literature, technology trends, and real user data, including ethnographic classroom observations across UAE public and private schools. All tailored to the specific context we're building for. This creates a strategic framework that doesn't just inform the first concept but guides every iteration, enabling confident pivots rooted in real insights rather than assumptions.
           </p>
         </section>
 
@@ -40,7 +40,7 @@ const About: React.FC = () => {
             Think in systems. Craft with empathy.
           </h3>
           <p className="text-base text-gray-400 leading-relaxed">
-            I design at the systems level building scalable architectures that create consistency across every touchpoint while leaving room for the nuanced, human moments that matter. Whether it's helping users negotiate with an AI in real time or guiding them toward their most efficient decision, every interaction is considered as part of a larger whole. Systems thinking meets polished craft.
+            I design at the systems level building scalable architectures that create consistency across every touchpoint while leaving room for the nuanced, human moments that matter. Whether it's helping users negotiate with an AI in real time or guiding them toward their most efficient decision, every interaction is considered as part of a larger whole. Systems thinking meets polished craft, applied across AI-driven adaptive learning platforms serving thousands of students.
           </p>
         </section>
 
@@ -54,7 +54,7 @@ const About: React.FC = () => {
             Build the vision together.
           </h3>
           <p className="text-base text-gray-400 leading-relaxed">
-            Design doesn't happen in a vacuum. I bring engineering, product management, and design into the process early and often, managing expectations, surfacing constraints, and ensuring every perspective strengthens the final outcome. The result isn't a handoff; it's a shared vision that every team already believes in by the time it ships.
+            Design doesn't happen in a vacuum. I bring engineering, product management, and design into the process early and often, managing expectations, surfacing constraints, and ensuring every perspective strengthens the final outcome. The result isn't a handoff; it's a shared vision that every team already believes in by the time it ships. Aligning leadership, specialists, AI researchers and multiple engineering squads.
           </p>
         </section>
 
@@ -68,7 +68,7 @@ const About: React.FC = () => {
             Ship to the highest standard.
           </h3>
           <p className="text-base text-gray-400 leading-relaxed">
-            Vision means nothing without execution. I partner directly with front-end and back-end engineers to ensure technical feasibility, seamless testing, and UX/UI best practices are maintained from prototype to production. No detail gets lost in translation.
+            Vision means nothing without execution. I partner directly with multiple engineering squads through release cycles and production rollout, ensuring UX/UI best practices are maintained from prototype to production. No detail gets lost in translation.
           </p>
         </section>
       </div>
