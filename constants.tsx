@@ -6,7 +6,7 @@ export const IMPACTS: ImpactItem[] = [
     product: 'GESS AWARD WINNER 2025 | EDTECH | FULL REDESIGN',
     category: 'EdTech / Strategy',
     title: 'Alef Pathways: Complete Product Redesign',
-    subtitle: 'Led the full redesign of a personalized adaptive AI learning solution, with a student-centered pedagogical approach, significantly increasing engagement and boosting new and upsell contracts.',
+    subtitle: 'Co-defined year-long roadmap and led the full redesign of a personalized adaptive AI learning solution, with a student-centered pedagogical approach, significantly increasing engagement and boosting new and upsell contracts.',
     impactValue: '+41%',
     impactLabel: 'Unique Active Users',
     impactMetric: '+41% increase in unique active users',
@@ -15,7 +15,7 @@ export const IMPACTS: ImpactItem[] = [
     processBrief: 'Led a comprehensive human-centered redesign process spanning nine months, from deep pedagogical research to cross-functional stakeholder alignment.',
     imageUrl: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771585183/Thumbnail_-_pathways_pbkl9b.png',
     caseStudy: {
-      overview: 'Led the complete end-to-end redesign of Alef Pathways, transforming it from a teacher-centric assessment tool into a student-empowered learning platform that addresses critical educational gaps in the UAE market where 80% of students perform below grade level.',
+      overview: 'Co-defined Alef Education’s year-long roadmap and led the cross-functional transformation of Pathways into an AI-driven personalized learning system, aligning executive, curriculum, AI and engineering stakeholders. The redesign addressed systemic learning gaps in the UAE, where over 80% of students perform below grade level, enabling scalable student autonomy and data-driven instruction across thousands of classrooms.',
       overviewSubtext: 'AI-led transformation combining custom adaptive algorithms, intelligent tutoring, and pedagogical storytelling. Result: 41% user growth, 42 new contracts, and GESS Education Awards 2025 winner for "Best Digital Educational Resource/Product".',      links: [
         { label: 'GESS Education Awards 2025 Winners', url: 'https://www.gessdubai.com/2025-awards-winners/' },
         { label: 'Alef Pathways Product Overview', url: 'https://www.alefeducation.com/products/alef-pathways#overview' }
@@ -60,10 +60,10 @@ export const IMPACTS: ImpactItem[] = [
         featureTitle: 'From Testing to Empowering', 
         featureDescription: 'Fundamentally shifted product philosophy by restructuring assessment architecture to provide immediate, actionable feedback at moments of success and struggle rather than delayed grades.\n\nFor teachers a one click away design principle enabled clear scaffolded data analytics dashboard, where they could clearly and independently focus on what they need to: areas of concern and successes.\n\nThe platform enabled teachers to have time saving targeted private chats with students to solve issues timely, further advancing the goal of the prduct to reduce grade gaps in education.',
         featureImages: [
-          'https://res.cloudinary.com/dz26vptwn/image/upload/v1772038148/2f8ab8c8-bbfd-4977-862d-c146b8fae3f5.png',
+          'https://res.cloudinary.com/dz26vptwn/image/upload/v1772039101/218214c2-d6bd-4746-b32b-999fd2d60625.png',
           'https://res.cloudinary.com/dz26vptwn/image/upload/v1772038516/a53b8d2d-f93a-4279-90b0-ea08672727f9.png',
-          'https://res.cloudinary.com/dz26vptwn/image/upload/v1772038045/6e45399a-a4d9-46c7-824c-956ce7c9d50d.png',
-          'https://res.cloudinary.com/dz26vptwn/image/upload/v1772039101/218214c2-d6bd-4746-b32b-999fd2d60625.png'
+          'https://res.cloudinary.com/dz26vptwn/image/upload/v1772038148/2f8ab8c8-bbfd-4977-862d-c146b8fae3f5.png',
+          'https://res.cloudinary.com/dz26vptwn/image/upload/v1772038045/6e45399a-a4d9-46c7-824c-956ce7c9d50d.png'
         ],
         additionalSections: [
           {
