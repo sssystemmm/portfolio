@@ -26,11 +26,13 @@ export const IMPACTS: ImpactItem[] = [
         team: 'Product Managers and Head, Brand Designer, Motion Designer, 2 UI Designers, UX Researcher, Growth' 
       },
       metrics: [
-        { label: 'UNIQUE ACTIVE USERS', value: '+41%', description: 'Significantly improved product-market fit.', featured: true },
-        { label: 'B2B CONTRACTS', value: '42', description: 'New contracts secured directly via the redesign.' },
-        { label: 'UPSELL CONTRACTS', value: '44', description: 'Validating improved value proposition.' },
-        { label: 'WEEKLY ENGAGEMENT', value: '45m', description: 'Students achieving target pedagogical effectiveness thresholds.' },
-        { label: 'SUPPORT BURDEN', value: '0', description: 'Eliminated UX-related support tickets post-launch.' }
+        { label: 'YoY GROWTH', value: '+41%', description: 'Increased weekly active learners from 10,621 to 14,976 across UAE school deployments following redesign rollout.', featured: true },
+        { label: 'B2B CONTRACTS', value: '42', description: 'New private school contracts secured following redesign rollout.' },
+        { label: 'UPSELL CONTRACTS', value: '44', description: 'Contract expansions validating improved product value proposition.' },
+        { label: 'WEEKLY ENGAGEMENT', value: '45min', description: 'Students achieving target pedagogical effectiveness thresholds.' },
+        { label: 'SUPPORT BURDEN', value: '0', description: 'Eliminated UX-related support tickets post-launch.' },
+        { label: 'CROSS-FUNCTIONAL ALIGNMENT', value: '5 Teams', description: 'Aligned Leadership, Pedagogy, AI, and 2 Development Teams.' }
+
       ],
       challenge: {
         description: 'The original Alef Pathways was built on legacy system architecture, created for control and restrictions, with a semantic structure that failed to resonate with users. The product positioned teachers as gatekeepers rather than facilitators, creating distance from its core mission of empowering students to fill knowledge gaps independently.',
