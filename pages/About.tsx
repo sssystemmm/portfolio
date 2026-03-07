@@ -14,11 +14,11 @@ const About: React.FC = () => {
         
         {/* Pillar 1: Discovery */}
         <section className="group pt-0 pb-16 flex flex-col md:flex-row gap-12 items-start">
-          <div className="w-full md:w-2/5 aspect-video overflow-hidden rounded-xl bg-white/5 border border-white/10 shrink-0">
+          <div className="w-full md:w-2/5 overflow-hidden rounded-xl bg-white/5 border border-white/10 shrink-0">
             <img 
               src="https://res.cloudinary.com/dz26vptwn/image/upload/v1772875431/34057a64-db4e-469b-90ba-5e4a52e13fe2.png" 
               alt="Discovery process" 
-              className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
+              className="w-full h-auto opacity-80 group-hover:opacity-100 transition-opacity duration-500"
               referrerPolicy="no-referrer"
             />
           </div>
@@ -37,12 +37,12 @@ const About: React.FC = () => {
         </section>
 
         {/* Pillar 2: Design */}
-        <section className="group border-t border-white/10 py-16 flex flex-col md:flex-row gap-12 items-start">
-          <div className="w-full md:w-2/5 aspect-video overflow-hidden rounded-xl bg-white/5 border border-white/10 shrink-0">
+        <section className="group border-t border-white/10 py-16 flex flex-col md:flex-row-reverse gap-12 items-start">
+          <div className="w-full md:w-2/5 overflow-hidden rounded-xl bg-white/5 border border-white/10 shrink-0">
             <img 
               src="https://res.cloudinary.com/dz26vptwn/image/upload/v1772875515/13612098-fd41-4142-9538-58fe1be76533.png" 
               alt="Design systems" 
-              className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
+              className="w-full h-auto opacity-80 group-hover:opacity-100 transition-opacity duration-500"
               referrerPolicy="no-referrer"
             />
           </div>
@@ -62,11 +62,11 @@ const About: React.FC = () => {
 
         {/* Pillar 3: Alignment */}
         <section className="group border-t border-white/10 py-16 flex flex-col md:flex-row gap-12 items-start">
-          <div className="w-full md:w-2/5 aspect-video overflow-hidden rounded-xl bg-white/5 border border-white/10 shrink-0">
+          <div className="w-full md:w-2/5 overflow-hidden rounded-xl bg-white/5 border border-white/10 shrink-0">
             <img 
               src="https://res.cloudinary.com/dz26vptwn/image/upload/v1772875407/18d4b11b-1a20-460b-87c0-e18f731baf3e.png" 
               alt="Team alignment" 
-              className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
+              className="w-full h-auto opacity-80 group-hover:opacity-100 transition-opacity duration-500"
               referrerPolicy="no-referrer"
             />
           </div>
@@ -85,12 +85,12 @@ const About: React.FC = () => {
         </section>
 
         {/* Pillar 4: Implementation */}
-        <section className="group border-t border-white/10 py-16 flex flex-col md:flex-row gap-12 items-start">
-          <div className="w-full md:w-2/5 aspect-video overflow-hidden rounded-xl bg-white/5 border border-white/10 shrink-0">
+        <section className="group border-t border-white/10 py-16 flex flex-col md:flex-row-reverse gap-12 items-start">
+          <div className="w-full md:w-2/5 overflow-hidden rounded-xl bg-white/5 border border-white/10 shrink-0">
             <img 
               src="https://res.cloudinary.com/dz26vptwn/image/upload/v1772875387/4e89b0ac-8c5d-4d29-973b-14ba15c8028a.png" 
               alt="Implementation and shipping" 
-              className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
+              className="w-full h-auto opacity-80 group-hover:opacity-100 transition-opacity duration-500"
               referrerPolicy="no-referrer"
             />
           </div>

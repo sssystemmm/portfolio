@@ -1,5 +1,5 @@
 import React from 'react';
-import ImpactCard from '../components/ImpactCard.tsx';
+import ImpactItem from '../components/ImpactItem.tsx';
 import { IMPACTS } from '../constants.tsx';
 import { ImpactItem as ImpactItemType } from '../types.ts';
 
@@ -9,7 +9,7 @@ interface HomeProps {
 
 const Home: React.FC<HomeProps> = ({ onSeeMore }) => {
   return (
-    <div className="pt-48 pb-20 px-6 max-w-7xl mx-auto">
+    <div className="pt-48 pb-10 px-6 max-w-7xl mx-auto">
       {/* Hero Section */}
       <section className="mb-32">
         <div className="w-full">
@@ -33,31 +33,27 @@ const Home: React.FC<HomeProps> = ({ onSeeMore }) => {
 
           {/* Consistent subheader text */}
           <p className="text-xl md:text-2xl lg:text-[26px] text-gray-400 leading-relaxed font-light w-full tracking-tight">
-            Learn fast. Think in systems. Align the teams. Ship what matters.
+            Learn Fast. Think in systems. Align the teams. Ship what matters.
           </p>
         </div>
       </section>
 
       {/* Impact Section Header */}
-      <section className="mb-16">
-        <div className="flex flex-col md:flex-row md:items-end justify-between border-b border-white/10 pb-8 gap-8">
-          <div className="max-w-xl">
-            <h2 className="text-[11px] font-bold text-brand-blue uppercase tracking-[0.4em] mb-6">Selected Impact Use Cases</h2>
-            <p className="text-2xl md:text-3xl font-serif text-white leading-tight">
-              A collection of strategic transformations where design thinking met measurable business outcomes.
-            </p>
-          </div>
-          <span className="text-[11px] font-bold text-gray-500 uppercase tracking-widest hidden md:block pb-1">01 — {IMPACTS.length.toString().padStart(2, '0')}</span>
+      <section className="mb-12">
+        <div className="flex items-center justify-between border-b border-white/10 pb-6">
+          <h2 className="text-[11px] font-bold text-gray-500 uppercase tracking-[0.4em]">Selected Impact Use Cases</h2>
+          <span className="text-[11px] font-bold text-gray-500 uppercase tracking-widest hidden md:block">01 — {IMPACTS.length.toString().padStart(2, '0')}</span>
         </div>
       </section>
 
-      {/* Impact List Layout - Horizontal Cards */}
-      <section className="flex flex-col gap-12">
+      {/* Impact List - Minimal list that reveals on hover */}
+      <section className="mb-20 divide-y divide-white/10">
         {IMPACTS.map((impact, index) => (
-          <ImpactCard 
+          <ImpactItem 
             key={impact.id} 
             item={impact} 
-            onSeeMore={onSeeMore}
+            index={index}
+            onSeeMore={onSeeMore} 
           />
         ))}
       </section>
