@@ -96,8 +96,8 @@ const CaseStudy: React.FC<CaseStudyProps> = ({ item, onBack, onNext }) => {
               <span className="text-base md:text-lg font-semibold">{caseStudy.metadata.role}</span>
             </div>
             <div>
-              <span className="block text-[10px] uppercase font-bold text-gray-500 tracking-[0.3em] mb-2">Timeline</span>
-              <span className="text-base md:text-lg font-semibold">{caseStudy.metadata.timeline}</span>
+              <span className="block text-[10px] uppercase font-bold text-gray-500 tracking-[0.3em] mb-2">Scope of Work</span>
+              <span className="text-base md:text-lg font-semibold">{caseStudy.metadata.scopeOfWork}</span>
             </div>
             <div>
               <span className="block text-[10px] uppercase font-bold text-gray-500 tracking-[0.3em] mb-2">Team Structure</span>

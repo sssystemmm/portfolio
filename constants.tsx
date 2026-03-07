@@ -22,7 +22,7 @@ export const IMPACTS: ImpactItem[] = [
       ],
       metadata: { 
         role: 'Lead Product Designer', 
-        timeline: '12 Months (2024-2025)', 
+        scopeOfWork: 'End-to-end ownership: 4 user journeys (Teacher, Student, Guardian, Principal), 31+ features, full responsive system, native mobile app supervision.', 
         team: 'Product Managers and Head, Brand Designer, Motion Designer, 2 UI Designers, UX Researcher, Growth' 
       },
       metrics: [
@@ -129,7 +129,7 @@ export const IMPACTS: ImpactItem[] = [
       ],
       metadata: { 
         role: 'UX/UI Designer', 
-        timeline: '2 Years 7 Months', 
+        scopeOfWork: 'UX strategy, research, UX/UI design, design principles, and dev team leadership for native mobile and desktop.', 
         team: 'Web3/SSI Technologists, Cybersecurity Experts, Designers' 
       },
       metrics: [
@@ -182,7 +182,7 @@ export const IMPACTS: ImpactItem[] = [
     caseStudy: {
       overview: 'Designed and implemented a gamification system using pathway-specific badges that significantly boosted student engagement and learning outcomes across the platform.',
       overviewSubtext: 'Scope: 28-day controlled experiment with 152,615 students, achieving statistical significance with 95%+ confidence across key metrics.',
-      metadata: { role: 'Lead Product Designer', timeline: '2 Months (2026)', team: 'Lead Designer, Product Manager, Engineer Manager' },
+      metadata: { role: 'Lead Product Designer', scopeOfWork: 'Behavioral science-driven gamification strategy, badge mechanics design, engagement optimization.', team: 'Lead Designer, Product Manager, Engineer Manager' },
       metrics: [
         { label: 'ANSWER SUBMISSIONS', value: '+11%', description: 'Driving deeper practice engagement.', featured: true },
         { label: 'LEVEL COMPLETIONS', value: '+15%', description: 'Progressing through learning journey.' },
@@ -246,7 +246,7 @@ export const IMPACTS: ImpactItem[] = [
     caseStudy: {
       overview: 'Created a personalized communication banner system that dynamically adapts messaging based on individual student progress, dramatically improving engagement and learning activity completion.',
       overviewSubtext: 'Scope: 13-day controlled experiment with 138,599 students, achieving 100% statistical confidence.',
-      metadata: { role: 'Lead Product Designer', timeline: '1,5 Months (2025)', team: 'Lead Designer, Product Manager, Engineer Manager' },
+      metadata: { role: 'Lead Product Designer', scopeOfWork: 'Student journey optimization across 5 features, streamlining flows for cohesive personalized experience.', team: 'Lead Designer, Product Manager, Engineer Manager' },
       metrics: [
         { label: 'CLICK-THROUGH RATE', value: '+91%', description: 'Nearly doubled banner effectiveness.', featured: true },
         { label: 'SESSION STARTS', value: '+27%', description: 'Converting awareness into action.' },

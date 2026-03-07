@@ -49,7 +49,7 @@ export interface CaseStudy {
   }[];
   metadata: {
     role: string;
-    timeline: string;
+    scopeOfWork: string;
     team: string;
   };
   metrics: Metric[];
