@@ -1,4 +1,4 @@
-import { ImpactItem } from './types.ts';
+import { ImpactItem } from '@/types';
 
 export const IMPACTS: ImpactItem[] = [
   {

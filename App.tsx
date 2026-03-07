@@ -1,12 +1,12 @@
 
 import React, { useState } from 'react';
-import Navbar from './components/Navbar.tsx';
-import Home from './pages/Home.tsx';
-import About from './pages/About.tsx';
-import Contact from './pages/Contact.tsx';
-import CaseStudy from './pages/CaseStudy.tsx';
-import { ImpactItem } from './types.ts';
-import { IMPACTS } from './constants.tsx';
+import Navbar from '@/components/Navbar';
+import Home from '@/pages/Home';
+import About from '@/pages/About';
+import Contact from '@/pages/Contact';
+import CaseStudy from '@/pages/CaseStudy';
+import { ImpactItem } from '@/types';
+import { IMPACTS } from '@/constants';
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<string>('home');

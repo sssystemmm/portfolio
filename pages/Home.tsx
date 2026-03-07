@@ -1,7 +1,7 @@
 import React from 'react';
-import ImpactItem from '../components/ImpactItem.tsx';
-import { IMPACTS } from '../constants.tsx';
-import { ImpactItem as ImpactItemType } from '../types.ts';
+import ImpactItem from '@/components/ImpactItem';
+import { IMPACTS } from '@/constants';
+import { ImpactItem as ImpactItemType } from '@/types';
 
 interface HomeProps {
   onSeeMore: (item: ImpactItemType) => void;

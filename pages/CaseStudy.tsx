@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { ImpactItem } from '../types.ts';
+import { ImpactItem } from '@/types';
 
 interface CaseStudyProps {
   item: ImpactItem;
