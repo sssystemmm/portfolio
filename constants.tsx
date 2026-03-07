@@ -13,7 +13,7 @@ export const IMPACTS: ImpactItem[] = [
     award: 'Best Digital Educational Resource/Product - GESS Education Awards 2025',
     description: 'Winner of "Best Digital Educational Resource/Product" at the GESS Education Awards 2025.',
     processBrief: 'Led a comprehensive human-centered redesign process spanning nine months, from deep pedagogical research to cross-functional stakeholder alignment.',
-    imageUrl: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771585183/Thumbnail_-_pathways_pbkl9b.png',
+    imageUrl: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1772879485/13153df9-d0db-4973-a394-1a4d1870f2de.png',
     caseStudy: {
       overview: 'Co-defined Alef Education’s year-long roadmap and led the cross-functional transformation of Pathways into an AI-driven personalized learning system, aligning executive, curriculum, AI and engineering stakeholders. The redesign addressed systemic learning gaps in the UAE, where over 80% of students perform below grade level, enabling scalable student autonomy and data-driven instruction across thousands of classrooms.',
       overviewSubtext: 'AI-led transformation combining custom adaptive algorithms, intelligent tutoring, and pedagogical storytelling. Result: 41% user growth, 42 new contracts, and GESS Education Awards 2025 winner for "Best Digital Educational Resource/Product".',      links: [
@@ -178,7 +178,7 @@ export const IMPACTS: ImpactItem[] = [
     impactMetric: '+15% Sustained Engagement Increase',
     description: 'A data-driven gamification layer that rewards skill mastery and consistent practice.',
     processBrief: '28-day controlled experiment with 152,615 students. Focused on measuring not just engagement quantity but also learning quality and proficiency upgrades.',
-    imageUrl: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771344665/thumbnail_1_k0eucc.png', 
+    imageUrl: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1772879949/9ea9dc2c-9325-499f-9d2d-0c3088e1701e.png', 
     caseStudy: {
       overview: 'Designed and implemented a gamification system using pathway-specific badges that significantly boosted student engagement and learning outcomes across the platform.',
       overviewSubtext: 'Scope: 28-day controlled experiment with 152,615 students, achieving statistical significance with 95%+ confidence across key metrics.',
@@ -242,7 +242,7 @@ export const IMPACTS: ImpactItem[] = [
     impactMetric: '+91% CTR increase',
     description: 'Dynamic messaging engine that adapts content in real-time based on learner behavior.',
     processBrief: '13-day controlled experiment with 138,599 students. Achieved 100% statistical confidence that the personalized approach outperformed static messaging.',
-    imageUrl: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1771605494/b21127ef-82af-492c-acbd-2303918026e0.png',
+    imageUrl: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1772880028/fd70db70-e6d0-49a5-9fdb-fdf9a541c818.png',
     caseStudy: {
       overview: 'Created a personalized communication banner system that dynamically adapts messaging based on individual student progress, dramatically improving engagement and learning activity completion.',
       overviewSubtext: 'Scope: 13-day controlled experiment with 138,599 students, achieving 100% statistical confidence.',

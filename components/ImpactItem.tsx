@@ -23,9 +23,9 @@ const ImpactItem: React.FC<Props> = ({ item, onSeeMore, index }) => {
       onMouseLeave={() => setIsHovered(false)}
       onClick={() => onSeeMore(item)}
     >
-      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-12 lg:gap-24 relative z-10">
+      <div className="flex flex-col gap-12 relative z-10">
         
-        {/* Left Side: Index & Content */}
+        {/* Top: Header Content */}
         <div className="flex-1">
           <div className="flex items-center gap-3 mb-6">
              <span className="text-[11px] font-bold text-gray-500 tracking-[0.4em]">
@@ -39,33 +39,22 @@ const ImpactItem: React.FC<Props> = ({ item, onSeeMore, index }) => {
           <h3 className={`text-xl md:text-2xl lg:text-3xl font-serif leading-[1.4] transition-all duration-700 ${isHovered ? 'text-white' : 'text-white/60'}`}>
             {item.subtitle}
           </h3>
-
-          {/* Reveal: Process Description & Link */}
-          <div className={`overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${isHovered ? 'max-h-60 opacity-100 mt-8 translate-y-0' : 'max-h-0 opacity-0 translate-y-4'}`}>
-            <p className="text-gray-400 text-base md:text-lg max-w-xl leading-relaxed mb-6 font-light italic">
-              {item.title}
-            </p>
-            <div className="inline-flex items-center gap-4 text-[8px] font-bold text-brand-blue uppercase tracking-[0.4em]">
-              Explore Case Study
-              <div className="w-8 h-[1px] bg-brand-blue group-hover:w-16 transition-all duration-700"></div>
-            </div>
-          </div>
         </div>
 
-        {/* Right Side: High-Impact Card */}
-        <div className="lg:w-[400px] w-full shrink-0">
-          <div className={`relative p-8 rounded-3xl bg-white/5 border transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col gap-8 group/card overflow-hidden h-full min-h-[320px] ${isHovered ? 'border-brand-blue/30 bg-white/[0.08] -translate-y-2 shadow-2xl shadow-brand-blue/10' : 'border-white/5'}`}>
-            
-            {/* Background Thumbnail (Subtle underlay) */}
-            <div className="absolute top-0 right-0 w-1/2 h-full opacity-20 pointer-events-none group-hover/card:opacity-40 transition-opacity duration-1000">
-               <img 
-                src={item.imageUrl} 
-                alt="" 
-                className="w-full h-full object-cover grayscale brightness-200"
-              />
-              <div className="absolute inset-0 bg-gradient-to-l from-transparent to-[#0a0a0a]"></div>
-            </div>
+        {/* Middle: Media & Metric */}
+        <div className="grid lg:grid-cols-2 gap-8 items-start">
+          {/* Left: Thumbnail */}
+          <div className="w-full aspect-[3/2] rounded-3xl overflow-hidden border border-white/10 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]">
+            <img 
+              src={item.imageUrl} 
+              alt={item.title} 
+              className={`w-full h-full object-cover transition-all duration-1000 ${isHovered ? 'scale-105' : 'scale-100'}`}
+            />
+          </div>
 
+          {/* Right: Impact Card */}
+          <div className="relative p-8 rounded-3xl transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col gap-8 group/card overflow-hidden border border-transparent bg-transparent">
+            
             {/* Award Badge - Visual highlight */}
             {item.award && (
               <div className={`absolute top-6 right-6 z-20 transition-all duration-700 ${isHovered ? 'scale-110 translate-x-1 -translate-y-1' : 'scale-100'}`}>
@@ -76,34 +65,36 @@ const ImpactItem: React.FC<Props> = ({ item, onSeeMore, index }) => {
               </div>
             )}
 
-            <div className="relative z-10 flex flex-col justify-between h-full space-y-6">
+            <div className="relative z-10 flex flex-col justify-between space-y-6">
               <div>
-                {/* Thumbnail Mini-Preview */}
-                <div className="w-20 aspect-video rounded-lg overflow-hidden border border-white/10 bg-black/40 mb-6">
-                  <img 
-                    src={item.imageUrl} 
-                    alt={item.title} 
-                    className={`w-full h-full object-cover transition-all duration-1000 ${isHovered ? 'scale-110 grayscale-0' : 'grayscale opacity-60'}`}
-                  />
-                </div>
-
                 {/* Impact Metric Layout */}
                 <div className="space-y-4">
                   <div className="space-y-0">
                     <div className={`${impactValueSize} font-bold tracking-tighter leading-none transition-colors duration-500 break-words ${isHovered ? 'text-brand-blue' : 'text-white'}`}>
                       {item.impactValue}
                     </div>
-                    <div className="text-[9px] font-bold text-gray-400 uppercase tracking-[0.3em] pt-2">
+                    <div className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.3em] pt-2">
                       {item.impactLabel}
                     </div>
                   </div>
                   
-                  <p className="text-[13px] text-gray-400 leading-relaxed font-medium max-w-[280px]">
+                  <p className="text-[15px] text-gray-400 leading-relaxed font-medium w-full">
                     {item.description}
                   </p>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Bottom: Revealable Content */}
+        <div className={`overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${isHovered ? 'max-h-60 opacity-100 translate-y-0' : 'max-h-0 opacity-0 translate-y-4'}`}>
+          <p className="text-gray-400 text-base md:text-lg max-w-xl leading-relaxed mb-6 font-light italic">
+            {item.title}
+          </p>
+          <div className="inline-flex items-center gap-4 text-[8px] font-bold text-brand-blue uppercase tracking-[0.4em]">
+            Explore Case Study
+            <div className="w-8 h-[1px] bg-brand-blue group-hover:w-16 transition-all duration-700"></div>
           </div>
         </div>
       </div>
