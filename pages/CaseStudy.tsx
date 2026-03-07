@@ -124,13 +124,13 @@ const CaseStudy: React.FC<CaseStudyProps> = ({ item, onBack, onNext }) => {
         {/* Sticky Sidebar */}
         <aside className="hidden lg:block">
           <div className="sticky top-32">
-            <span className="text-[10px] uppercase font-bold text-gray-600 tracking-widest block mb-8">On this page</span>
+            <span className="text-[11px] uppercase font-bold text-gray-600 tracking-widest block mb-8">On this page</span>
             <nav className="flex flex-col gap-4">
               {sidebarItems.map((navItem) => (
                 <button 
                   key={navItem.id}
                   onClick={(e) => scrollToSection(e, navItem.id)}
-                  className="text-xs font-bold text-gray-500 hover:text-white transition-colors flex items-center gap-3 group text-left"
+                  className="text-sm font-bold text-gray-500 hover:text-white transition-colors flex items-center gap-3 group text-left"
                 >
                   <span className="w-4 h-[1px] bg-white/10 group-hover:bg-brand-blue transition-colors group-hover:w-6"></span>
                   {navItem.label}
@@ -172,28 +172,29 @@ const CaseStudy: React.FC<CaseStudyProps> = ({ item, onBack, onNext }) => {
           {/* The Impact */}
           <section id="impact" className="scroll-mt-32">
             <h2 className="text-3xl font-bold mb-12">The Impact</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-              {/* Award Recognition */}
-              {item.award && (
-                <div className="md:col-span-2 lg:col-span-1 p-8 md:p-10 rounded-2xl bg-gradient-to-br from-yellow-500/10 via-yellow-600/5 to-transparent border border-yellow-500/20 shadow-2xl shadow-yellow-500/5 flex flex-col justify-between relative overflow-hidden group min-h-[220px]">
-                  <div className="absolute -top-12 -right-12 w-32 h-32 bg-yellow-500 opacity-[0.05] blur-[60px] rounded-full group-hover:opacity-10 transition-opacity"></div>
-                  <div>
-                    <span className="block text-[10px] font-bold tracking-[0.3em] text-yellow-500 uppercase mb-8 flex items-center gap-2">
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 1L14.39 8.26H22L15.81 12.75L18.19 20L12 15.5L5.81 20L8.19 12.75L2 8.26H9.61L12 1Z" />
-                      </svg>
-                      Industry Recognition
-                    </span>
-                    <div className="text-2xl font-serif text-white mb-4 leading-snug">
-                      Winner: Best Digital Educational Resource/Product
-                    </div>
+            
+            {/* Award Recognition - Full Width Above Grid */}
+            {item.award && (
+              <div className="w-full p-8 md:p-10 rounded-2xl bg-gradient-to-br from-yellow-500/10 via-yellow-600/5 to-transparent border border-yellow-500/20 shadow-2xl shadow-yellow-500/5 flex flex-col justify-between relative overflow-hidden group min-h-[220px] mb-6">
+                <div className="absolute -top-12 -right-12 w-32 h-32 bg-yellow-500 opacity-[0.05] blur-[60px] rounded-full group-hover:opacity-10 transition-opacity"></div>
+                <div>
+                  <span className="block text-[10px] font-bold tracking-[0.3em] text-yellow-500 uppercase mb-8 flex items-center gap-2">
+                    <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 1L14.39 8.26H22L15.81 12.75L18.19 20L12 15.5L5.81 20L8.19 12.75L2 8.26H9.61L12 1Z" />
+                    </svg>
+                    Industry Recognition
+                  </span>
+                  <div className="text-2xl font-serif text-white mb-4 leading-snug">
+                    Winner: Best Digital Educational Resource/Product
                   </div>
-                  <p className="text-xs text-yellow-500/80 font-bold uppercase tracking-widest mt-4">
-                    GESS EDUCATION AWARDS 2025
-                  </p>
                 </div>
-              )}
+                <p className="text-xs text-yellow-500/80 font-bold uppercase tracking-widest mt-4">
+                  GESS EDUCATION AWARDS 2025
+                </p>
+              </div>
+            )}
 
+            <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
               {caseStudy.metrics && caseStudy.metrics.length > 0 && caseStudy.metrics.map((metric, i) => {
                 const isLongValue = metric.value.length > 6;
                 return (

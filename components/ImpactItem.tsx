@@ -89,7 +89,7 @@ const ImpactItem: React.FC<Props> = ({ item, onSeeMore, index }) => {
 
         {/* Bottom: Revealable Content */}
         <div className={`overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${isHovered ? 'max-h-60 opacity-100 translate-y-0' : 'max-h-0 opacity-0 translate-y-4'}`}>
-          <p className="text-gray-400 text-base md:text-lg max-w-xl leading-relaxed mb-6 font-light italic">
+          <p className="text-gray-400 text-base md:text-lg max-w-xl leading-relaxed mb-6 font-thin italic">
             {item.title}
           </p>
           <div className="inline-flex items-center gap-4 text-[8px] font-bold text-brand-blue uppercase tracking-[0.4em]">

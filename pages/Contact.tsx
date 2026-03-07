@@ -25,8 +25,8 @@ const Contact: React.FC = () => {
               
               <div className="space-y-4">
                 <div className="space-y-1">
-                  <p className="text-xl md:text-2xl text-gray-400 font-light">+971 56 484 8860</p>
-                  <p className="text-xl md:text-2xl text-gray-400 font-light">+49 176 62472666</p>
+                  <p className="text-xl md:text-2xl text-gray-400 font-thin">+971 56 484 8860</p>
+                  <p className="text-xl md:text-2xl text-gray-400 font-thin">+49 176 62472666</p>
                 </div>
                 
                 <div className="pt-4">
@@ -60,8 +60,8 @@ const Contact: React.FC = () => {
           {/* Column 2: Current Status */}
           <div>
             <h2 className="text-[10px] uppercase tracking-[0.4em] text-gray-500 font-bold mb-10">Current Status</h2>
-            <p className="text-xl md:text-2xl lg:text-3xl text-gray-400 leading-relaxed font-light">
-              Open to leadership opportunities in <span className="text-white font-normal">AI, innovation, product design, and strategy</span>, looking to apply deep research to push boundaries and create measurable impact.
+            <p className="text-xl md:text-2xl lg:text-3xl text-gray-400 leading-relaxed font-thin">
+              Open to leadership opportunities in <span className="text-white font-thin">AI, innovation, product design, and strategy</span>, looking to apply deep research to push boundaries and create measurable impact.
             </p>
             
             <div className="mt-16 flex gap-6 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-600">

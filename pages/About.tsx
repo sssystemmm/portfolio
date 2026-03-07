@@ -41,7 +41,7 @@ const About: React.FC = () => {
       {/* Rows for the 4 Pillars */}
       <div className="flex flex-col">
         
-        {/* Pillar 1: Discovery */}
+        {/* Pillar 1: Strategy */}
         <section className="group pt-0 pb-16 flex flex-col md:flex-row gap-12 items-start">
           <div 
             className="w-full md:w-2/5 overflow-hidden rounded-xl bg-white/5 border border-white/10 shrink-0 cursor-zoom-in"
@@ -57,13 +57,13 @@ const About: React.FC = () => {
           <div className="flex-1 space-y-6">
             <div className="flex items-baseline gap-3">
               <span className="text-[10px] font-mono text-brand-blue font-bold tracking-widest">01</span>
-              <h2 className="text-2xl md:text-3xl font-bold group-hover:text-brand-blue transition-colors uppercase tracking-tight">Discovery</h2>
+              <h2 className="text-2xl md:text-3xl font-bold group-hover:text-brand-blue transition-colors uppercase tracking-tight">Strategy & Discovery</h2>
             </div>
             <h3 className="text-xl font-serif italic text-white/80 leading-snug">
               Research deep. Decide right.
             </h3>
             <p className="text-lg text-gray-400 leading-relaxed max-w-2xl">
-              Great design starts before the first screen. I ground every project in layered research drawing from papers, latest trends, and real user data. All tailored to the specific context we're building for. This creates a strategic framework that doesn't just inform the first concept but guides every iteration, enabling confident pivots rooted in real insights rather than assumptions.
+              Great design starts before the first screen. I ground every project in layered research drawing from tech, latest trends, and real user data. All tailored to the specific context we're building for. This creates a strategic framework that doesn't just inform the first concept but guides the produce unique value proposition, enabling confident pivots rooted in real insights rather than assumptions.
             </p>
           </div>
         </section>
@@ -84,13 +84,13 @@ const About: React.FC = () => {
           <div className="flex-1 space-y-6">
             <div className="flex items-baseline gap-3">
               <span className="text-[10px] font-mono text-brand-blue font-bold tracking-widest">02</span>
-              <h2 className="text-2xl md:text-3xl font-bold group-hover:text-brand-blue transition-colors uppercase tracking-tight">Design</h2>
+              <h2 className="text-2xl md:text-3xl font-bold group-hover:text-brand-blue transition-colors uppercase tracking-tight">Design & Validation</h2>
             </div>
             <h3 className="text-xl font-serif italic text-white/80 leading-snug">
               Think in systems. Craft with empathy.
             </h3>
             <p className="text-lg text-gray-400 leading-relaxed max-w-2xl">
-              I design at the systems level building scalable architectures that create consistency across every touchpoint while leaving room for the nuanced, human moments that matter. Whether it's helping users negotiate with an AI in real time or guiding them toward their most efficient decision, every interaction is considered as part of a larger whole. Systems thinking meets polished craft, applied across AI-driven adaptive learning platforms serving thousands of students.
+              I design at the systems level building scalable architectures that create consistency across every touchpoint while leaving room for the nuanced, human moments that matter. Whether it's helping users negotiate with an AI in real time or guiding them toward their most efficient decision, every interaction is considered as part of a larger whole. Systems thinking meets polished craft, applied across features that build a meaningful ecosystem. All aligned to a unique validation strategy using the most appropriate research methods.
             </p>
           </div>
         </section>
