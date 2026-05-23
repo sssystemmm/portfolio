@@ -3,7 +3,7 @@ import { ImpactItem } from '@/types';
 export const IMPACTS: ImpactItem[] = [
   {
     id: 'alef-redesign',
-    product: 'GESS AWARD WINNER 2025 | EDTECH | FULL REDESIGN',
+    product: 'DOUBLE AWARD WINNER 2025 | EDTECH | FULL REDESIGN',
     category: 'EdTech / Strategy',
     title: 'Alef Pathways: Complete Product Redesign',
     subtitle: 'Co-defined year-long roadmap and led the full redesign of a personalized adaptive AI learning solution, with a student-centered pedagogical approach, significantly increasing engagement and boosting new and upsell contracts.',
@@ -11,13 +11,24 @@ export const IMPACTS: ImpactItem[] = [
     impactLabel: 'Unique Active Users',
     impactMetric: '+41% increase in unique active users',
     award: 'Best Digital Educational Resource/Product - GESS Education Awards 2025',
-    description: 'Winner of "Best Digital Educational Resource/Product" at the GESS Education Awards 2025.',
+    awards: [
+      {
+        title: 'Winner: Best Digital Educational Resource/Product',
+        organization: 'GESS EDUCATION AWARDS 2025'
+      },
+      {
+        title: 'Winner: Hamdan–ALECSO Award for Digital Innovations in Education',
+        organization: 'HAMDAN FOUNDATION & ALECSO 2025'
+      }
+    ],
+    description: 'Winner of "Best Digital Educational Resource/Product" at the GESS Education Awards 2025 and "Hamdan–ALECSO Award for Digital Innovations in Education" in 2025.',
     processBrief: 'Led a comprehensive human-centered redesign process spanning nine months, from deep pedagogical research to cross-functional stakeholder alignment.',
     imageUrl: 'https://res.cloudinary.com/dz26vptwn/image/upload/v1772879485/13153df9-d0db-4973-a394-1a4d1870f2de.png',
     caseStudy: {
       overview: 'Co-defined Alef Education’s year-long roadmap and led the cross-functional transformation of Pathways into an AI-driven personalized learning system, aligning executive, curriculum, AI and engineering stakeholders. The redesign addressed systemic learning gaps in the UAE, where over 80% of students perform below grade level, enabling scalable student autonomy and data-driven instruction across thousands of classrooms.',
-      overviewSubtext: 'AI-led transformation combining custom adaptive algorithms, intelligent tutoring, and pedagogical storytelling. Result: 41% user growth, 42 new contracts, and GESS Education Awards 2025 winner for "Best Digital Educational Resource/Product".',      links: [
+      overviewSubtext: 'AI-led transformation combining custom adaptive algorithms, intelligent tutoring, and pedagogical storytelling. Result: 41% user growth, 42 new contracts, and double award recognition (GESS Education Awards 2025 & Hamdan-ALECSO Award 2025).',      links: [
         { label: 'GESS Education Awards 2025 Winners', url: 'https://www.gessdubai.com/2025-awards-winners/' },
+        { label: 'Hamdan–ALECSO Award Announcement', url: 'https://ha.ae/39/media-center/news/hamdan-bin-rashid-al-maktoum-foundation-and-alecso-announce-winners-of-hamdanalecso-award-for-distinguished-educational-research-and-hamdanalecso-award-for-digital-innovations-in-education' },
         { label: 'Alef Pathways Product Overview', url: 'https://www.alefeducation.com/products/alef-pathways#overview' }
       ],
       metadata: { 

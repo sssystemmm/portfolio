@@ -56,11 +56,13 @@ const ImpactItem: React.FC<Props> = ({ item, onSeeMore, index }) => {
           <div className="relative p-8 rounded-3xl transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col gap-8 group/card overflow-hidden border border-transparent bg-transparent">
             
             {/* Award Badge - Visual highlight */}
-            {item.award && (
+            {(item.awards && item.awards.length > 0 ? true : !!item.award) && (
               <div className={`absolute top-6 right-6 z-20 transition-all duration-700 ${isHovered ? 'scale-110 translate-x-1 -translate-y-1' : 'scale-100'}`}>
                 <div className="flex items-center gap-2 bg-gradient-to-r from-yellow-500/20 to-yellow-600/10 border border-yellow-500/30 px-3 py-1.5 rounded-full backdrop-blur-md shadow-lg shadow-yellow-500/10">
                   <div className="w-2 h-2 rounded-full bg-yellow-500 animate-pulse"></div>
-                  <span className="text-[8px] font-bold text-yellow-500 uppercase tracking-widest">GESS 2025 WINNER</span>
+                  <span className="text-[8px] font-bold text-yellow-500 uppercase tracking-widest">
+                    {item.awards && item.awards.length > 1 ? 'DOUBLE AWARD WINNER' : 'GESS 2025 WINNER'}
+                  </span>
                 </div>
               </div>
             )}

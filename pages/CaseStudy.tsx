@@ -173,8 +173,30 @@ const CaseStudy: React.FC<CaseStudyProps> = ({ item, onBack, onNext }) => {
           <section id="impact" className="scroll-mt-32">
             <h2 className="text-3xl font-bold mb-12">The Impact</h2>
             
-            {/* Award Recognition - Full Width Above Grid */}
-            {item.award && (
+            {/* Award Recognition - Full Width Grid Above Metrics Grid if multiple, else single */}
+            {item.awards && item.awards.length > 0 ? (
+              <div className="grid md:grid-cols-2 gap-6 mb-6">
+                {item.awards.map((awr, idx) => (
+                  <div key={idx} className="p-8 md:p-10 rounded-2xl bg-gradient-to-br from-yellow-500/10 via-yellow-600/5 to-transparent border border-yellow-500/20 shadow-2xl shadow-yellow-500/5 flex flex-col justify-between relative overflow-hidden group min-h-[220px]">
+                    <div className="absolute -top-12 -right-12 w-32 h-32 bg-yellow-500 opacity-[0.05] blur-[60px] rounded-full group-hover:opacity-10 transition-opacity"></div>
+                    <div>
+                      <span className="block text-[10px] font-bold tracking-[0.3em] text-yellow-500 uppercase mb-8 flex items-center gap-2">
+                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 1L14.39 8.26H22L15.81 12.75L18.19 20L12 15.5L5.81 20L8.19 12.75L2 8.26H9.61L12 1Z" />
+                        </svg>
+                        Industry Recognition
+                      </span>
+                      <div className="text-2xl font-serif text-white mb-4 leading-snug">
+                        {awr.title}
+                      </div>
+                    </div>
+                    <p className="text-xs text-yellow-500/80 font-bold uppercase tracking-widest mt-4">
+                      {awr.organization}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            ) : item.award ? (
               <div className="w-full p-8 md:p-10 rounded-2xl bg-gradient-to-br from-yellow-500/10 via-yellow-600/5 to-transparent border border-yellow-500/20 shadow-2xl shadow-yellow-500/5 flex flex-col justify-between relative overflow-hidden group min-h-[220px] mb-6">
                 <div className="absolute -top-12 -right-12 w-32 h-32 bg-yellow-500 opacity-[0.05] blur-[60px] rounded-full group-hover:opacity-10 transition-opacity"></div>
                 <div>
@@ -192,7 +214,7 @@ const CaseStudy: React.FC<CaseStudyProps> = ({ item, onBack, onNext }) => {
                   GESS EDUCATION AWARDS 2025
                 </p>
               </div>
-            )}
+            ) : null}
 
             <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
               {caseStudy.metrics && caseStudy.metrics.length > 0 && caseStudy.metrics.map((metric, i) => {

@@ -12,6 +12,7 @@ export interface ImpactItem {
   processBrief: string;
   imageUrl: string;
   award?: string; // e.g., "Best Digital Educational Resource - GESS 2025"
+  awards?: { title: string; organization: string }[];
   caseStudy: CaseStudy;
 }
 
